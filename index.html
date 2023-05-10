@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things I Like About Roxanne</title>
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+
+    <div class="first-page">
+        <div class="text-container">
+          <h1>Things I Like About Roxanne</h1>
+          
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image1.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h2>Her Smile</h2>
+                <p>her smile is like a ray of sunshine that brightens up my day every time I see it. It's contagious and makes everyone around you feel a little bit better. Keep smiling, it's one of your greatest assets roxanne!</p>
+                <p>I Love that</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card1">
+            <div class="flip-card-inner1">
+              <div class="flip-card-front1">
+                <img src="image2.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h2>Her Eyes</h2>
+                <p>her eyes are like two sparkling gems that shine with the brightest light. They hold a depth of beauty that leaves me mesmerized every time I look into them."</p>
+                <p>I Love that</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card2">
+            <div class="flip-card-inner2">
+              <div class="flip-card-front2">
+                <img src="image3.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h2>And Lastly</h2>
+                <p> Her tenacity is what genuinely distinguishes her. She never loses sight of her ambitions, no matter what life throws at her. Instead, she adjusts and develops new tactics to overcome whatever obstacles she encounters.</p>
+                <p>I love that</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="background-audio">
+            <i class="fa-fa-volume-up"></i>
+            <audio autoplay loop>
+              <source src="[MV] SAM KIM(샘김) _ Make Up (Feat. Crush) (3).mp3" type="audio/mpeg">
+              <source src="[MV] SAM KIM(샘김) _ Make Up (Feat. Crush) (3).ogg" type="audio/ogg">
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+          
+          <button id="myBtn">But if you ask me how come you like her?.....</button>
+          
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h5>The sensation of like someone can be both exciting and perplexing. As I begin to think about her more frequently, my thoughts turn to what she might be doing or how she might be feeling. It's as though her presence in my life offers an unfathomable sense of love and contentment. The fact that I smile when I think about her is a strong indication that I am developing affections for her. At times, these emotions might be overwhelming, making it impossible to concentrate on anything else.
+                Only time will tell where this attraction may lead me, but for the time being, all I know is that I adore the way she makes me feel.</h5>
+            </div>
+          </div>
+          <script>
+            var modal = document.getElementById("myModal");
+
+            var btn = document.getElementById("myBtn");
+
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+              if (event.target == modal) {
+              modal.style.display = "none";
+              }
+            }
+          </script>
+      
